@@ -1,0 +1,10 @@
+build/
+dist/
+*.exe
+project_info.json
+leaderboard.json
+metrics_history.json
+__pycache__/
+*.pyc
+venv/
+.env

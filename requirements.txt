@@ -1,0 +1,17 @@
+# Incident Response Simulator - Python dependencies
+# Install with:  pip install -r requirements.txt
+# Python 3.9+ recommended (tkinter ships with the standard Windows/macOS installers)
+
+# --- Core (required) ---
+ttkbootstrap>=1.10.1     # themed GUI (darkly theme, Meter gauges)
+matplotlib>=3.7          # MTTD/MTTR trend chart on the Metrics Dashboard
+
+# --- Recommended ---
+Pillow>=10.0             # generates the shield logo / app icon (app still runs without it)
+paho-mqtt>=1.6           # Cloud Sync in Collaboration Mode (works with 1.x and 2.x)
+
+# --- Optional ---
+# anthropic>=0.40        # live AI scenario generation (also needs ANTHROPIC_API_KEY set)
+
+# --- Build only (to create the .exe) ---
+# pyinstaller>=6.0
